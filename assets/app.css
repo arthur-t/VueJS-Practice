@@ -1,0 +1,21 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.centered-blue{
+    @apply min-h-screen bg-indigo-light;
+}
+
+.centered-contents{
+    @apply min-h-screen flex flex-col justify-center  items-center;
+}
+
+.card{
+    @apply ml-8 align-middle bg-grey-lighter shadow-lg p-8;
+}
+
+.centered-text{
+    @apply align-middle text-center;
+}
